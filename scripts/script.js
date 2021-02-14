@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', () => {
     console.log('imported');
   }
 
-  if (localStorage.getItem("id_array") != "[]"){
+  if (localStorage.getItem("id_array") != null && localStorage.getItem("id_array") != "[]"){
     // console.log("storage not empty");
     // console.log(JSON.parse(localStorage.getItem("id_array")));
   }
