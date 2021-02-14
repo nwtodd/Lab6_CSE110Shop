@@ -127,7 +127,7 @@ class ProductItem extends HTMLElement {
     this.button = this.root.querySelector(".cart");
 
     this.button.onclick = function(){
-      // WE ARE NOW IN THE BUTTON SCOPE - this makes me want to kill myself
+      // WE ARE NOW IN THE BUTTON SCOPE
       
       // access local storage
       let id_array = JSON.parse(localStorage.getItem("id_array"));
